@@ -1,0 +1,14 @@
+{
+  "name": "goskatalog.ru downloader",
+  "description": "Позволяет скачивать с http://goskatalog.ru картинки в большом разрешении",
+  "version": "0.3",
+  "minimum_chrome_version": "31",
+  "permissions": ["downloads", "*://goskatalog.ru/*"],
+  "browser_action": {
+    "default_popup": "popup.html"
+  },
+  "manifest_version": 2,
+  "icons": { 
+    "16": "icon.png"
+  }
+}
